@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon - Cards</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="shortcut icon" href="src/images/pokebola.png" type="image/x-icon">
+
+</head>
+<body>
+    <!-- cabeçalho -->
+    <header class="cabecalho">
+        <img src="src/images/pokebola.png" alt="Pokébola" class="pokebola">
+        <h1 class="titulo">Cards Pokémon</h1>
+    </header>
+
+    <!-- conteudo principal do site -->
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar"><img src="src/images/seta.png" alt="seta voltar" srcset="" id="btn-voltar" ></button>
+
+        <ul class="lista-pokemons">
+            <!--Pikachu-->
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 274</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/pikachu.png" alt="Pikachu" class="image-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Description</h3>
+                    <p class="texto">Pikachu that can
+                    generate powerful electricity 
+                    have cheek sacs 
+                    that are extra 
+                    soft and super stretchy.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 360</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/charizard.png" alt="Charizard" class="image-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Description</h3>
+                    <p class="texto">It spits fire 
+                        that is hot 
+                        enough to melt 
+                        boulders. It may 
+                        cause forest fires 
+                        by blowing flames.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 416</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/mewtwo.png" alt="Mewtwo" class="image-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Description</h3>
+                    <p class="texto">Its DNA is almost 
+                        the same as 
+                        Mew’s. However, its 
+                        size and disposition 
+                        are vastly different.</p>
+                </div>
+            </li>
+
+           
+        </ul>
+
+        <button class="btn-seta"><img src="src/images/seta.png" alt="seta avançar" srcset="" id="btn-avancar"></button>
+    </main>
+
+    <script src="src/js/index..js"></script>
+</body>
+</html>
